@@ -1,2 +1,3 @@
-Responsive page
+Product preview card component
+Responsive project
  
