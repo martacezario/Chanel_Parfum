@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Advent+Pro&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@media only screen and (max-width: 600px){
+    .box1 {
+        
+        width: 100vw;
+        height: 70vh;
+        background-image: url(images/image-product-mobile.jpg);
+        background-repeat: no-repeat;
+        background-size:cover;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        
+    }
+    h3 {
+        color: gray;
+        padding-left: 2rem;
+        padding-top: 1.5rem;
+        font-size: 1.5 rem;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        font-family: 'Advent Pro', sans-serif;
+    }
+
+    h1{
+        padding-top: 1rem;
+        font-family: 'Abril Fatface', serif;
+        margin-left: 1.5rem;
+
+    }
+    p{
+        color: gray;
+        font-size: 1.2rem;
+        padding-top: 1.2rem;
+        font-family: 'Advent Pro', sans-serif;
+        font-weight: 500;
+        margin-left: 1.5rem;
+    }
+    .prices{
+        padding-top: 2rem;
+        margin-left: 1.5rem;
+    }
+    .finalprice{
+        font-size: 2rem;
+        color:#4E7F6C;
+        font-weight: bolder;
+
+        
+    }
+
+    .initialprice{
+        color: rgb(42, 87, 87);
+        padding-top: 6rem;
+        text-decoration: line-through;
+
+    }
+    
+    .buttons{
+        height: 30vh;
+    }
+    .cart_button{
+        background-color:#4E7F6C;
+        width: 70vw;
+        height: 10vh;
+        border-radius: 10px;
+        color: white;
+        margin-left: 4rem;
+        margin-top: 2rem;
+        font-family: 'Abril Fatface', serif;
+        letter-spacing: 2px;
+    }
+
+   
+    }
+
+@media only screen and (min-width: 601px) {
+    .firstpicture{
+        background-image: none;
+        width: 50%;
+        height: 130vh;
+        background-image: url(images/image-product-desktop.jpg);
+        background-repeat: no-repeat;
+        background-size: 100%;
+        
+    }
+    h3 {
+        color: gray;
+        font-size: 1.5 rem;
+        text-transform: uppercase;
+        letter-spacing: 2px;
+        font-family: 'Advent Pro', sans-serif;
+        font-size: 40px;
+        text-align:justify;
+        justify-content: start;
+        padding-bottom: 5rem;
+       
+       
+    }
+    h1 {
+       
+        font-family: 'Abril Fatface', serif;
+        font-size: 45px;
+        height: 40vh;
+       
+    }
+    p{
+        color: gray;
+        font-size: 1.2rem;
+        font-family: 'Advent Pro', sans-serif;
+        width: 30vw;
+        text-align: justify;
+        font-weight: 900;
+        height: 20vh;
+        
+    }
+    .prices{
+        height: 30vh;
+        width: 30vw; 
+        
+    }
+
+    .finalprice{
+        color:#4E7F6C;
+        font-weight: bolder;
+        font-size: 60px;
+      
+    }
+
+    .initialprice{
+        color: rgb(42, 87, 87);
+        text-decoration: line-through;
+        font-size: 30px;
+       
+    }
+    .cart_button{
+        background-color:#4E7F6C;
+        width: 15vw;
+        height: 10vh;
+        border-radius: 20px;
+        color: white;
+        font-family: 'Abril Fatface', serif;
+        letter-spacing: 2px; 
+        
+       
+    }
+    .container{
+        display: flex;
+        
+        
+    .box1, .box2 {
+        width: 50vw;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+    .box1{
+        background-image: url(images/image-product-desktop.jpg);
+        background-repeat: no-repeat;
+    }
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
